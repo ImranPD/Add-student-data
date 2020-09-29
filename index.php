@@ -63,10 +63,11 @@
 		 ?>
 
 		<section id="design">
+			<a style="margin-left: 400px;" class="btn btn-outline-primary btn-lg" href="student.php"> View student Data</a>
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-12">
-						<div class="card shadow-lg w-50 mx-auto my-5">
+						<div class="card shadow-lg w-50 mx-auto">
 							<div class="card-body">
 								<h2 class="text-center">Add student data</h2>
 								<?php 
@@ -100,8 +101,8 @@
 									<div class="form-group">
 										<label for="">Gender</label>
 										<br>
-										<input name="gender" type="radio" value="male" id="gender"><label class="align-middle ml-1" for="male">Male</label>
-										<input name="gender" type="radio" value="female" id="gender"><label class="align-middle ml-1" for="female">Female</label>
+										<input name="gender" type="radio" value="male" id="male"><label class="align-middle ml-1" for="male">Male</label>
+										<input name="gender" type="radio" value="female" id="female"><label class="align-middle ml-1" for="female">Female</label>
 									</div>
 									<div class="form-group">
 										<label for="">Shift</label>
@@ -133,7 +134,7 @@
 									</div>
 									<div class="form-group">
 										<input name="submit" class="btn btn-outline-primary btn-lg" type="submit" value="Send">
-										<a class="btn btn-outline-primary btn-lg" href="student.php" target="_blank"> View student Data</a>
+										
 									</div>
 								</form>
 							</div>
